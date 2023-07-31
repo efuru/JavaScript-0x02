@@ -44,3 +44,48 @@ var titleCaseOver;
 studlyCapVar = 10;
 properCamelCase = "A String";
 titleCaseOver = 9000;
+
+ //Differences Between the var and let Keywords
+ //you can not delete a variable declared with var, you can only assign its value to another
+ //So unlike var, when you use let, a variable with the same name can only be declared once.
+let catName = "Oliver";
+let catSound = "Meow!"; //idea way to go.
+
+//Read-Only Variable with the const Keyword
+// once a variable is declared with const it can not be reassigned
+const favoritePet = "Dog";
+favoritePet = Cat;
+
+//const
+const FCC = "freeCodeCamp"; // Change this line
+let fact = "is cool!"; // Change this line
+fact = "is awesome!";
+console.log(FCC, fact); // Change this line 
+
+//addition
+const sum = 10 + 10;
+
+//substraction
+const difference = 45 - 33;
+
+//Multiplication
+const product = 8 * 10;
+
+//Division
+const quotient = 66 / 33;
+
+//incrementation
+//this:
+let myVariable = 87;
+myVariable = myVariable + 1;
+//gets to be this:
+let myVar = 87;
+myVar++;
+
+//decrementation
+//this:
+let myVar1 = 11;
+myVar1 = myVar1 - 1;
+//gets to be this:
+let myVar2 = 11;
+myVar2--;
