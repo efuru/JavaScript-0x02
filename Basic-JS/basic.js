@@ -189,4 +189,89 @@ const someAdjective = "cool!";
 let myStr4 = "Learning to code is ";
 myStr += someAdjective;
 
-//Find the Length of a String
+//Find the Length of a String: a bit tricky here.
+//Use the .length property to set lastNameLength to the number of characters in lastName.
+
+ // Setup
+let lastNameLength = 0;
+const lastName = "Lovelace";
+
+// Only change code below this line
+lastNameLength = lastName.length;//this will set the length of lastName to lastNameLength
+console.log(lastName.length);
+
+//Use Bracket Notation to Find the First Character in a String
+// Setup
+let firstLetterOfLastName = "";
+const lastName1 = "Lovelace";
+
+// Only change code below this line
+firstLetterOfLastName = lastName1[0]; // Change this line
+
+//Understand String Immutability
+//In JavaScript, String values are immutable, which means that they cannot be altered once created.
+//for example:
+let myStr5 = "Bob";
+myStr5[0] = J; //this is an error
+//but that does not mean we can't reassign like this
+let myStr5 = "Job";
+// Setup
+let myStr6 = "Jello World";
+
+// Only change code below this line
+myStr6 = "Hello World"; // Change this line
+// Only change code above this line 
+
+//Use Bracket Notation to Find the Nth Character in a String
+//Remember that computers start counting at 0, so the first character is actually the zeroth character.
+// Setup
+const lastName2 = "Lovelace";
+
+// Only change code below this line
+const thirdLetterOfLastName = lastName2[2]; // Change this line
+
+//Use Bracket Notation to Find the Last Character in a String
+//In order to get the last letter of a string, you can subtract one from the string's length.
+let girl = "Efuru";
+let lastCharacter = girl[girl.length -1];//example1
+// Setup example 2
+const lastNam = "Lovelace";
+
+// Only change code below this line
+const lastLetterOfLastName = lastNam[lastNam.length -1]; // Change this line
+
+//Use Bracket Notation to Find the Nth-to-Last Character in a String
+// Setup
+const lastNamm = "Lovelace";
+
+// Only change code below this line
+const secondToLastLetterOfLastName = lastNamm[lastNamm.length -2]; // Change this line
+
+//Word Blanks
+const myNoun = "dog";
+const myAdjective = "big";
+const myVerb = "ran";
+const myAdverb = "quickly";
+
+// Only change code below this line
+const wordBlanks = "My" + " " + myNoun + " " + "is" + " " + myAdjective + " " + "but" + " " + myVerb + " " + "very" + " " + myAdverb;// Change this line
+// Only change code above this line
+
+//Store Multiple Values in one Variable using JavaScript Arrays
+const myArray = ["bread", 1];
+
+//nested arrays
+const myArrayis = [["bread", 3], ["teacups", 3]];
+
+//accessing arrays by index
+const myArrayy = [50, 60, 70];
+let myData = myArrayy[0]; 
+
+//Modify Array Data With Indexes
+// Setup
+const myArrayyy = [18, 64, 99];
+
+// Only change code below this line
+myArrayyy[0] = 45;
+
+//tomorrow, stop at assignment with renewed value
