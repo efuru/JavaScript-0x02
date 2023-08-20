@@ -274,4 +274,34 @@ const myArrayyy = [18, 64, 99];
 // Only change code below this line
 myArrayyy[0] = 45;
 
-//tomorrow, stop at assignment with renewed value
+/*Access Multi-Dimensional Arrays With Indexes:
+A multi-dimensional array is like a box with many smaller boxes inside.
+Each smaller box can contain other boxes or just one item. When you use brackets to access your array,
+the first set of brackets refers to the entries in the outermost (the first level) box,
+and each additional pair of brackets refers to the next level of entries inside.*/
+const myBox =  [
+  [1,2],
+  [3],
+  [4, [5, 6]],
+  [[7], 8],
+  [9]
+];
+const firstArray = myBox[0];//[1,2]
+const lastArray = myBox[myBox.length -1];//[9]
+const someNum = myBox[2][1][0]; //5
+const sumNum = myBox[3][1];//7
+
+for(let i = 0; i < myBox.length; 1++){
+  for(let j = 0; j < myBox[i],length; j++)
+  console.log([i][j]);//so box[i].length represent  each outermost array, and j will loop through each array or items inside of it
+};
+
+//task:Using bracket notation select an element from myArray such that myData is equal to 8.
+const myArrayyy = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
+  [[10, 11, 12], 13, 14],
+];
+
+const myDayta = myArrayyy[2][1];
