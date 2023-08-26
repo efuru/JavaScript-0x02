@@ -305,3 +305,26 @@ const myArrayyy = [
 ];
 
 const myDayta = myArrayyy[2][1];
+
+//Manipulate Arrays With push Method: .push() function takes one or more parameters and appends it another.
+const arrye = ["I", "love"];
+arrye.push("food");
+//In the above example, arraye becomes ["I", "love", "food"]
+
+// exercise
+const myArrayE = [["John", 23], ["cat", 2]];
+// Only change code below this line
+myArrayE.push (["dog", 3]);
+
+//Manipulate Arrays With pop Method
+//.pop() method can be used to remove the last element of a string
+//example:
+const arrayOfMine = ["eba","is", "good", "bad"];
+const realTalk = arrayOfMine.pop();
+console.log(arrayOfMine);//this has the value ["eba", "is", "good", "bad"]
+console.log(realTalk);//this has the value ["bad"]
+//exercise: // Setup
+const myArrayyyy = [["John", 23], ["cat", 2]];
+
+// Only change code below this line
+const removedFromMyArray = myArrayyyy.pop();
